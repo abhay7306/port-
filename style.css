@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo{
+    width: 130px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.links:hover{
+    color:red;
+    text-decoration: underline;
+}
+.home-content{
+    margin: 13% 0px 0px 8%;
+
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+#lname{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    color:blueviolet ;
+}
+#user-details{
+    line-height:1.5;
+}
+#Download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+}
+.home-image{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom:0px;
+    right: 30px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s,left 1s;
+
+}
+.home-image:hover #girl{
+     left: 40%;
+}
+.home-image:hover #shape{
+    bottom: 70px;
+
+}
+#about{
+    margin: 20% 0px 0px 8%;
+}
+.sectionhead{
+    text-align: center;
+}
+.mainhead{
+    font-size: 30px;
+}
+.subhead{
+    font-size: 20px;
+    color: green;
+}
+.aboutbody{
+    margin-top: 20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+}
+.aboutimage{
+    width: 50%;
+}
+#skills{
+    margin: 15% 8% 0px 8%;
+}
+.skillconents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-top: 20px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+.barHead,.barpercent{
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+.baseBar{
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.htmlBar{
+    background-color: orange;
+    width: 84%;
+}
+.cssBar{
+    background-color: orange;
+    width: 79%;
+}
+.jsBar{
+    background-color: orange;
+    width:70% ;
+}
+.reactBar{
+    background-color: orange;
+    width: 85%;
+}
+#contact{
+    margin: 8% 8% 0px 8%;
+
+}
+.iconCollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    /* border: solid 2px; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,red,orange,green);
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 4s;
+}
+
+@keyframes rotate{
+
+    0%{
+        transform: rotate(30 dag);
+    }
+    20%{
+        transform: rotate(-30 dag);
+    }
+    40%{
+        transform: rotate(30 dag);
+
+    }
+60%{
+    transform: rotate(-30 dag);
+}
+80%{
+    transform: rotate(30 dag);
+}
+100%{
+    transform: rotate(-30 dag);
+}
+}
+ footer{
+    margin-top: 8%;
+ }
+ #copywright{
+    text-align: center;
+    font-weight: 600;
+ }
+ .upArrow{
+    float: right;
+    margin-top: -30px;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ ::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+ }
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
